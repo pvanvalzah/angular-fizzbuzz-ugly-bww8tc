@@ -5,7 +5,7 @@ import { FormsModule } from '@angular/forms';
 import { MatButtonModule } from '@angular/material';
 
 import { AppComponent } from './app.component';
-import { PrettyFizzbuzzComponent } from './pretty-fizzbuzz/pretty-fizzbuzz.component';
+import { PrettyFoobarComponent } from './pretty-foobar/pretty-foobar.component';
 
 @NgModule({
   imports: [
@@ -14,7 +14,7 @@ import { PrettyFizzbuzzComponent } from './pretty-fizzbuzz/pretty-fizzbuzz.compo
     FormsModule,
     MatButtonModule,
   ],
-  declarations: [AppComponent, PrettyFizzbuzzComponent],
+  declarations: [AppComponent, PrettyFoobarComponent],
   bootstrap: [AppComponent],
 })
 export class AppModule {}
